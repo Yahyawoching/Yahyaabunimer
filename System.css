@@ -1,0 +1,212 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.land {
+    background-image: url('su.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+}
+
+.over {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.landing h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.landing p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.landing button {
+    background-color: #ff9900;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.landing button:hover {
+    background-color: #cc7a00;
+}
+
+.letter {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    direction: rtl;
+}
+
+.letter h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.letter input[type="text"],
+.letter input[type="email"],
+.letter textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.letter button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.letter button:hover {
+    background-color: #0056b3;
+}
+
+.letter textarea {
+    height: 80px;
+    resize: none;
+}
+
+
+
+
+.cards {
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.footer-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.footer-icons a:hover {
+    transform: scale(1.1);
+    background-color: #007bff;
+}
+
+.footer-icons img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.copyright {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #white;
+}
